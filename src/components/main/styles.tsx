@@ -33,9 +33,8 @@ export const ListOfProducts = styled(MainContent)`
 `
 
 export const Product = styled.div`
-    width: 37.4rem;
+    width: 37rem;
     height: 30.2rem;
-    /* margin: 0rem 2.0rem 0rem 2.0rem; */
     background: var(--White-200);
     display: grid;
     place-content: center;

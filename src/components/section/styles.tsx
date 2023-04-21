@@ -15,6 +15,7 @@ export const InfoIntroduction = styled.div`
     color: var(--White);
     display: grid;
     gap: 1.2rem;
+    width: 100%;
     h1 {
         font-size: 2.8rem;
         font-weight: 700;
