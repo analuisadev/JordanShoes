@@ -25,11 +25,31 @@ export const Highlights = styled.div`
         color: var(--Gray);
     }
 
+    @media screen and (min-width: 830px) {
+        p {
+            width: fit-content;
+        }
+    }
 `
 
 export const ListOfProducts = styled(MainContent)`
-    margin-top: 5.9rem;
+    margin: 5.9rem auto;
     gap: 3.0rem;
+
+    @media screen and (min-width: 830px) {
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1240px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1700px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
 `
 
 export const Product = styled.div`

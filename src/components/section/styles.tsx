@@ -23,6 +23,21 @@ export const InfoIntroduction = styled.div`
 
     p {
         width: 35.7rem;
-        font-weight: 600;
+    }
+
+    @media screen and (min-width: 830px) {
+        margin-left: 10.0rem;
+
+        h1 {
+            font-size: 4.8rem;
+            font-weight: 600;
+        }
+
+        p {
+            width: 637px;
+            font-size: 2.4rem;
+            line-height: 160%;
+            
+        }
     }
 `
