@@ -22,7 +22,8 @@ export const InfoIntroduction = styled.div`
     }
 
     p {
-        width: 35.7rem;
+        width: 34.7rem;
+        line-height: 180%;
     }
 
     @media screen and (min-width: 830px) {
