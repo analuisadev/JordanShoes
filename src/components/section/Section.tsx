@@ -1,17 +1,17 @@
-import { Introduction, JordanIntroduction } from "./styles"
+import { Introduction, InfoIntroduction } from "./styles"
 
 export function Section() {
     return (
         <>
-            <JordanIntroduction>
-                <Introduction>
+            <Introduction>
+                <InfoIntroduction>
                     <h1>A melhor loja de Jordan</h1>
                     <p>O tênis Jordan é fruto de uma velha
                         e forte parceria entre a Nike e o
                         jogador Michael Jordan.
                     </p>
-                </Introduction>
-            </JordanIntroduction>
+                </InfoIntroduction>
+            </Introduction>
         </>
     )
 }

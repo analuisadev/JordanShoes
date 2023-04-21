@@ -8,8 +8,8 @@ export const Discount = styled.div`
     text-align: center;
     justify-content: center;
     padding: 2.0rem;
+    
     span {
-        font-weight: 500;
         color: var(--White);
     }
 `

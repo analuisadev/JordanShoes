@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import bgJordan from '../../assets/bg-jordanShoes.jpeg'
 
-export const JordanIntroduction = styled.div`
+export const Introduction = styled.div`
     background: url( ${bgJordan} ) center/cover;
     height: 37.7rem;
     display: flex;
@@ -10,7 +10,7 @@ export const JordanIntroduction = styled.div`
     flex-direction: column;
 `
 
-export const Introduction = styled.div`
+export const InfoIntroduction = styled.div`
     padding: 2.0rem;
     color: var(--White);
     display: grid;

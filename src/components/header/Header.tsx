@@ -1,11 +1,11 @@
-import { JordanHeader } from "./styles";
+import { Container } from "./styles";
 
 export function Header() {
     return (
         <>
-            <JordanHeader>
+            <Container>
                 <h2>JordanShoes</h2>
-            </JordanHeader>
+            </Container>
         </>
     )
 }

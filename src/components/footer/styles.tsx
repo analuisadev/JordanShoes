@@ -8,9 +8,9 @@ export const Copyright = styled.div`
     align-items: center;
     height: 6.0rem;
     margin-top: 5.0rem;
+    
     span {
        color: var(--White);
        font-size: 1.8rem;
-       font-weight: 500;
     }
 `
