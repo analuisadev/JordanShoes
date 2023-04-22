@@ -8,6 +8,7 @@ export const Introduction = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 `
 
 export const InfoIntroduction = styled.div`
@@ -16,6 +17,7 @@ export const InfoIntroduction = styled.div`
     display: grid;
     gap: 1.2rem;
     width: 100%;
+
     h1 {
         font-size: 2.8rem;
         font-weight: 700;
