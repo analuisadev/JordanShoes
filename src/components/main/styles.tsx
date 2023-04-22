@@ -33,7 +33,7 @@ export const Highlights = styled.div`
 `
 
 export const ListOfProducts = styled(MainContent)`
-    margin: 5.9rem auto;
+    margin-top: 5.9rem;
     gap: 3.0rem;
 
     @media screen and (min-width: 830px) {
@@ -53,7 +53,7 @@ export const ListOfProducts = styled(MainContent)`
 `
 
 export const Product = styled.div`
-    width: 37rem;
+    width: 34rem;
     height: 30.2rem;
     background: var(--White-200);
     display: grid;
