@@ -12,12 +12,10 @@ export const Introduction = styled.div`
 `
 
 export const InfoIntroduction = styled.div`
-    padding: 2.0rem;
     color: var(--White);
     display: grid;
     gap: 1.2rem;
-    width: 100%;
-
+    width: fit-content;
     h1 {
         font-size: 2.8rem;
         font-weight: 700;
